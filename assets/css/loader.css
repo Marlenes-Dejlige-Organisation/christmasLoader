@@ -1,0 +1,69 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+/* Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Mountains of Christmas', serif;
+    color: rgb(248, 90, 90);
+    /* max-width: 600px; */
+    background-image: url('/assets/media/1x/Aktiv 5.png');
+    background-size: cover; /* Baggrundsbilledet tilpasses til skærmstørrelsen */
+    background-position: center; /* Centrer baggrundsbilledet */
+    background-repeat: no-repeat; /* Forhindre gentagelse af baggrundsbilledet */
+}
+
+h1{
+    text-align: center;
+    padding-top: 15%;
+    color: #fcebacde;
+    font-weight: 700;
+ 
+}
+p{ 
+    padding: 0.25rem 0.2rem 0.2rem 0.5rem;
+}
+
+.loader-container {
+    width: 90%;
+    border: 0.15rem solid #fcebac;
+    height: 2rem;
+    background: linear-gradient(to right, rgb(63, 4, 4), #e38e31, #fcebac);
+    position: relative;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 80%;
+    margin-bottom: 10%;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 90, 90, 0.479); /* Hvid baggrundsfarve */
+    transition: width 0.5s;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.marker {
+    width: 2px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0); /* Juster farven efter behov */
+    position: absolute;
+}
+
+.percent-text {
+    position: absolute;
+    top: 0.25em;
+    left: 1.5rem;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+}

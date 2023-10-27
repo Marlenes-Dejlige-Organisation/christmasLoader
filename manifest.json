@@ -1,0 +1,11 @@
+{
+    "name": "Juleaften Tæller",
+    "short_name": "Juleaften",
+    "description": "Tæl dage indtil juleaften",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#FF0000"
+
+  }
+  

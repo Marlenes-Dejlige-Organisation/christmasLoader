@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="assets/js/main.js"defer></script>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <title>ChristmasIsComing!</title>
+    <script src="./sw.js"defer></script>
+    <script src="assets/js/loader.js"defer></script>
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="manifest" href="./manifest.json">
 </head>
 <body>
-    
+   <h1>Christmas is coming...</h1>
+    <div class="loader-container">
+
+        <div id="loader" class="loader">
+            <div id="marker" class="marker"><div class="percent-text" id="percentText">0%</div></div>
+            <p>loading...</p>
+        </div>
+        
+    </div>
+
 </body>
 </html>
